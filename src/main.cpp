@@ -42,7 +42,7 @@ int main() {
 	// TODO: Initialize the pid variable.
 	// coeffiencts for both controllers were found after optimization using twiddle
 	//pid_steer.Init(0.09, 0.002,0.0021);
-	pid_steer.Init(3, 0.000,0.000);
+	pid_steer.Init(1, 0.002,0.0021);
 	pid_throttle.Init(0.0, 0.0, 0.010);
 
 	// initializing
